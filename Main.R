@@ -1,4 +1,3 @@
-```{r}
 ### Aquatic Forecast Workflow ###
 # devtools::install_github("eco4cast/neon4cast")
 library(tidyverse)
@@ -55,4 +54,3 @@ forecast %>%
 
 ### Step 4: Save and submit forecast and metadata
 submit_forecast(forecast,team_info,submit=FALSE)
-```
